@@ -2,7 +2,13 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-
+/*
+() => {}: arrow function
+component react = js + return html + css
+*/
+const MyComponent = () => {
+  return <div class="name">Kevin & KOL update</div>;
+};
 const App = () => {
   const [count, setCount] = useState(0);
 
@@ -16,7 +22,8 @@ const App = () => {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Kevin Hello world</h1>
+      <MyComponent />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
