@@ -1,4 +1,2 @@
-const SecondComponent = () => {
-  return <div>Second component</div>;
-};
+const SecondComponent = () => <div>Second component</div>;
 export default SecondComponent;
