@@ -10,7 +10,7 @@ const MyComponent = () => {
   };
   return (
     <>
-      <div class="name">Kevin & KOL update</div>
+      <div className="name">Kevin & KOL update</div>
       <div>{JSON.stringify(numb)} KOL update</div>
       <div>{console.log("HOANG")}</div>
       <div className="child" style={{ borderRadius: "10px" }}>
